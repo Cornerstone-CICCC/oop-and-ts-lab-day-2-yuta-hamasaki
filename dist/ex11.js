@@ -12,6 +12,8 @@ class Duck {
     }
 }
 function getCapabilities(duck) {
+    duck.fly();
+    duck.swim();
 }
 // Expected output:
 getCapabilities(new Duck());
